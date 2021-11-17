@@ -1,3 +1,32 @@
+body{
+	padding: 0;
+	margin: 10%;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Rottikk', Arial, Helvetica, sans-serif;
+}
+section{
+	border-bottom: 1px solid #dedede;
+}
+h2{
+	font-weight: normal;
+	margin-bottom: 0;
+
+}
+article p{
+	margin-top: 0;
+}
+.mainDetails{
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: goldenrod 4px solid;
+	margin-bottom: 20px;
+	padding: 10px 3.5rem;
+}
+#headshot img{
+	border-radius: 100px;
+	margin-right: 30px;
+}
 .clear {
 	clear: both;
 }
@@ -5,23 +34,50 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 60px;
 }
 
 #name {
 	float: left;
+	font-weight: bold;
+	color: #444444;
+	font-size: 18px;
+	padding: 0;
 }
 
 #contactDetails {
 	float: right;
+	padding-top: 10px;
 }
-
+#mainArea{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#mainArea h1{
+	font-size: 1.5rem;
+	color: goldenrod;
+	font-weight: 500;
+	font-style: italic;
+}
 .sectionTitle {
 	float: left;
 	width: 25%;
+	padding-bottom: 20px;
+	
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+
+}
+.subDetails {
+	font-family: 'Lato' ,Arial, Helvetica, sans-serif;
+	margin:0;
+	margin-bottom: 7px;
+
+}
+
+.keySkills{
+	columns: 3;
 }
